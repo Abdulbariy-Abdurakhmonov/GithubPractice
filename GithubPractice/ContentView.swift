@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            
+            
+            
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .imageScale(.large)
@@ -34,6 +37,17 @@ struct ContentView: View {
                     .foregroundStyle(.mint)
                 
             }
+            
+            Button("Button") {
+                
+            }
+            .font(.largeTitle)
+            .foregroundStyle(.white)
+            .frame(maxWidth: 200)
+            .padding()
+            .background(.tint)
+            .clipShape(.capsule)
+            .padding(30)
         }
         .padding()
         
