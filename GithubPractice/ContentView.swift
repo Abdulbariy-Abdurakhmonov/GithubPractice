@@ -15,8 +15,16 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
           
+            Image(systemName: "person.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(height: 150)
+                .padding()
+                .foregroundStyle(.red)
         }
         .padding()
+        
+        
     }
 }
 
