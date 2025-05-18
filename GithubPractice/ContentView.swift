@@ -14,6 +14,9 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+            
+            Text("Abduloriy is my name")
+                .font(.headline).padding()
           
             Image(systemName: "person.fill")
                 .resizable()
