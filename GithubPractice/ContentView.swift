@@ -18,12 +18,22 @@ struct ContentView: View {
             Text("Abduloriy is my name")
                 .font(.headline).padding()
           
-            Image(systemName: "person.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(height: 150)
-                .padding()
-                .foregroundStyle(.red)
+            HStack {
+                Image(systemName: "person.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 120)
+                    .padding()
+                    .foregroundStyle(.red)
+                
+                Image(systemName: "person.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 120)
+                    .padding()
+                    .foregroundStyle(.mint)
+                
+            }
         }
         .padding()
         
